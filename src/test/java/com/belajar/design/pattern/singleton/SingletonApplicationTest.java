@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootTest(classes = SingletonApplication.class)
-public class SingletonApplicationTest {
+class SingletonApplicationTest {
 
     @Autowired
     private ApplicationContext applicationContext;
