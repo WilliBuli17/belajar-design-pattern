@@ -1,4 +1,4 @@
-package com.belajar.design.pattern.factory.model2;
+package com.belajar.design.pattern.factory.inheritance;
 
 import com.belajar.design.pattern.factory.SocialMedia;
 import com.belajar.design.pattern.factory.socialmedia.FacebookSocialMedia;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 
 @SpringBootApplication
-public class FactoryMethod2Application {
+public class FactoryMethodUsingInheritanceApplication {
 
     @Bean
     @Scope("prototype")

@@ -1,4 +1,4 @@
-package com.belajar.design.pattern.factory.model1;
+package com.belajar.design.pattern.factory.method;
 
 import com.belajar.design.pattern.factory.SocialMedia;
 import com.belajar.design.pattern.factory.SocialMediaType;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 
 @SpringBootApplication
-public class FactoryMethod1Application {
+public class FactoryMethodApplication {
 
     @Bean
     @Scope("prototype")

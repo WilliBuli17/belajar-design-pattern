@@ -1,4 +1,4 @@
-package com.belajar.design.pattern.factory.model1;
+package com.belajar.design.pattern.factory.method;
 
 import com.belajar.design.pattern.factory.SocialMedia;
 import com.belajar.design.pattern.factory.SocialMediaType;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 
-@SpringBootTest(classes = FactoryMethod1Application.class)
-class FactoryMethod1ApplicationTest {
+@SpringBootTest(classes = FactoryMethodApplication.class)
+class FactoryMethodApplicationTest {
 
     @Autowired
     private ApplicationContext applicationContext;
