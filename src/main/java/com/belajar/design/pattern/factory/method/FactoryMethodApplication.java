@@ -2,10 +2,10 @@ package com.belajar.design.pattern.factory.method;
 
 import com.belajar.design.pattern.factory.SocialMedia;
 import com.belajar.design.pattern.factory.SocialMediaType;
-import com.belajar.design.pattern.factory.socialmedia.FacebookSocialMedia;
-import com.belajar.design.pattern.factory.socialmedia.InstagramSocialMedia;
-import com.belajar.design.pattern.factory.socialmedia.TikTokSocialMedia;
-import com.belajar.design.pattern.factory.socialmedia.TwitterSocialMedia;
+import com.belajar.design.pattern.factory.social_media.FacebookSocialMedia;
+import com.belajar.design.pattern.factory.social_media.InstagramSocialMedia;
+import com.belajar.design.pattern.factory.social_media.TikTokSocialMedia;
+import com.belajar.design.pattern.factory.social_media.TwitterSocialMedia;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
@@ -15,9 +15,9 @@ public class FactoryMethodApplication {
 
     @Bean
     @Scope("prototype")
-    public SocialMedia socialMedia(SocialMediaType type){
+    public SocialMedia socialMedia(SocialMediaType type) {
 
-        switch (type){
+        switch (type) {
             case FACEBOOK:
                 return new FacebookSocialMedia();
             case TIKTOK:

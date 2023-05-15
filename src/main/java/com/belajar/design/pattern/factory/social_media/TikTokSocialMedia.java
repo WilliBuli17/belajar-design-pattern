@@ -1,4 +1,4 @@
-package com.belajar.design.pattern.factory.socialmedia;
+package com.belajar.design.pattern.factory.social_media;
 
 import com.belajar.design.pattern.factory.SocialMedia;
 import com.belajar.design.pattern.factory.SocialMediaType;

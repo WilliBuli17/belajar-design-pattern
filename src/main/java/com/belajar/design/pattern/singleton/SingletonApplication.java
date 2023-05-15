@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 public class SingletonApplication {
 
     @Bean
-    public Counter counter(){
+    public Counter counter() {
         return new Counter();
     }
 }

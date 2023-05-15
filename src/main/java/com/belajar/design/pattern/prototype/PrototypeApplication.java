@@ -9,16 +9,17 @@ public class PrototypeApplication {
 
     @Bean
     @Scope("prototype")
-    public Employee employeeStaff(){
+    public Employee employeeStaff() {
         Employee employee = new Employee();
         employee.setPosition(Position.STAFF);
         employee.setSalary(10_000_000L);
 
         return employee;
     }
+
     @Bean
     @Scope("prototype")
-    public Employee employeeManager(){
+    public Employee employeeManager() {
         Employee employee = new Employee();
         employee.setPosition(Position.MANAGER);
         employee.setSalary(20_000_000L);
@@ -28,7 +29,7 @@ public class PrototypeApplication {
 
     @Bean
     @Scope("prototype")
-    public Employee employeeVicePresident(){
+    public Employee employeeVicePresident() {
         Employee employee = new Employee();
         employee.setPosition(Position.VICE_PRESIDENT);
         employee.setSalary(30_000_000L);
@@ -38,7 +39,7 @@ public class PrototypeApplication {
 
     @Bean
     @Scope("prototype")
-    public Employee employeeCLevel(){
+    public Employee employeeCLevel() {
         Employee employee = new Employee();
         employee.setPosition(Position.C_LEVEL);
         employee.setSalary(40_000_000L);
