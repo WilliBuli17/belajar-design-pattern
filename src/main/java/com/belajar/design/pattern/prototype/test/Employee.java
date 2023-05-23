@@ -1,4 +1,4 @@
-package com.belajar.design.pattern.prototype;
+package com.belajar.design.pattern.prototype.test;
 
 import lombok.Data;
 

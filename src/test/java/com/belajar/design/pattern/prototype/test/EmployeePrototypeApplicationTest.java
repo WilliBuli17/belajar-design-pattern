@@ -1,18 +1,20 @@
-package com.belajar.design.pattern.prototype;
+package com.belajar.design.pattern.prototype.test;
 
+import com.belajar.design.pattern.prototype.test.Employee;
+import com.belajar.design.pattern.prototype.test.EmployeePrototypeApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 
-@SpringBootTest(classes = PrototypeApplication.class)
-public class PrototypeApplicationTest {
+@SpringBootTest(classes = EmployeePrototypeApplication.class)
+class EmployeePrototypeApplicationTest {
 
     @Autowired
     private ApplicationContext applicationContext;
 
     @Test
-    void testPrototype() {
+    void testEmployeePrototype() {
         Employee willi = applicationContext.getBean("employeeManager", Employee.class);
         willi.setName("willi");
 

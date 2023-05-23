@@ -1,4 +1,4 @@
-package com.belajar.design.pattern.builder;
+package com.belajar.design.pattern.builder.test;
 
 
 import lombok.Builder;

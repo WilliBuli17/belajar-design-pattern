@@ -1,11 +1,11 @@
-package com.belajar.design.pattern.prototype;
+package com.belajar.design.pattern.prototype.test;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 
 @SpringBootApplication
-public class PrototypeApplication {
+public class EmployeePrototypeApplication {
 
     @Bean
     @Scope("prototype")
