@@ -30,6 +30,7 @@ class SingletonApplicationTest {
         new Thread(() -> {
             for (int i = 0; i < total; i++){
                 counter.increment();
+                counter.incrementWithSynchronized();
             }
         }).start();
     }
