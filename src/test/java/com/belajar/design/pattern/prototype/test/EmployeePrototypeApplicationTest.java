@@ -1,11 +1,11 @@
 package com.belajar.design.pattern.prototype.test;
 
-import com.belajar.design.pattern.prototype.test.Employee;
-import com.belajar.design.pattern.prototype.test.EmployeePrototypeApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest(classes = EmployeePrototypeApplication.class)
 class EmployeePrototypeApplicationTest {

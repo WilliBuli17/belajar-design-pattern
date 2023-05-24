@@ -1,8 +1,6 @@
 package com.belajar.design.pattern.abstract_fctory;
 
-import com.belajar.design.pattern.abstract_fctory.payment_factory.BcaKlikpayPaymentFactory;
 import com.belajar.design.pattern.abstract_fctory.payment_factory.CreditCardPaymentFactory;
-import com.belajar.design.pattern.abstract_fctory.payment_factory.GopayPaymentFactory;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
